@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: black;
+}
+
+header {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+ ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+ ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: darkred;
+}
+
+section {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+section h1 {
+    margin-bottom: 15px;
+    color: black;
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+ img {
+    width: 800px;
+    height: 800px;
+    margin: 500;
+    border-radius: 30px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: darkred;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: white;
+    font-size: 0.9rem;
+    color: black;
+}

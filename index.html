@@ -1,51 +1,55 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>My website</title>
-	<link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href ="style.css" rel="stylesheet">
+
 </head>
-
 <body>
-	<header>
-		<a href="/">Joy Gurung</a>
-		<nav>
-			<ul>
-				<li><a href="#about">About</a></li>
-				<li><a href="#projects">Projects</a></li>
-				<li><a href="#contact">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
+    <header> 
+        <h1>Aditi Simkhada </h1>
+        <nav>
+            <ul>
+                <li><a href="#About">About</a> </li>
+                <li><a href="#Projects">Projects</a> </li>
+                <li><a href="#Contact">Contact</a> <li>
+                </ul>
+        </nav>
+    </header>
 
-	<main>
-		<section id="about">
-			<h3>About me</h3>
-			<p>Hello! I'm Joy Gurung, a web designer passionate about building beautiful and functional websites. I enjoy learning new technologies and creating projects that make a difference.</p>
-		</section>
+    <main>
+        <section id="About">
+            <img src ="aditi.jpg" alt="Aditi Simkhada" class="profile-photo">
+            <h2> About me </h2>
+            <p> Hi!! my name is Aditi Simkhada. I love writing, photography and painting. My hobbies include sightseeing and travelling with my friends. I am currently pursuing my Bachelor's in Cybersecurity in Herald College. 
+            </p>
+        </section>
+    
+        <section id="Projects">
+            <h2>Projects</h2>
+            <img src="https://i.pinimg.com/736x/34/a6/8c/34a68c327ad94c267e3328324d140132.jpg" alt="project" id="weatherapp" ></section>
+        <section id="Contact" >
+            <h2>Contact</h2>
 
-		<section id="projects">
-			<h3>My projects</h3>
-			<img src="public/img.png" alt="Project image"/>
-			<h4>Project 1</h4>
-			<p>The weather app shows the real-time weather conditions of Bidur.</p>
-		</section>
+            <div>
+                <form>
+                    <label> Name: </label>
+                    <input typetext="text" placeholder="Enter your Name"/> 
+                    <label> Email: </label>
+                    <input typetext="text" placeholder="yourname123@gmail.com"/>
+                    <label> Description: </label>
+                    <input typetext="text" placeholder="Write here"/>
+                    <button type="submit"> Submit</button>
+                </form>
+            </div>
+        </section>
 
-		<section id="contact">
-			<form>
-				<label>Name:</label>
-				<input type="text" placeholder="Enter your name">
-
-				<label>Email:</label>
-				<input type="email" placeholder="Enter your email">
-
-				<label>Description:</label>
-				<textarea placeholder="Enter your description"></textarea>
-
-				<button>Submit</button>
-			</form>
-		</section>
-
-		<footer>&copy; Copyright belongs to Joy Gurung</footer>
-	</main>
+    </main>
+    <footer>
+        <p> &copy; 2025 all rights belongs to Aditi </p>
+    </footer>
 </body>
 </html>

@@ -1,50 +1,51 @@
 <!DOCTYPE html>
-<head>
+<html>
 <head>
 	<title>My website</title>
-	<link rel ="stylesheet" href ="style.css">
+	<link rel="stylesheet" href="index.css">
 </head>
 
 <body>
 	<header>
 		<a href="/">Joy Gurung</a>
-<nav>
-	<ul>
-		<li><a>About</a></li>
-		<li><a>Projects</a></li>
-		<li><a>Content</a></li>
-	</ul>
-</nav>
-</header>
-<main>
-<section id = "About">
-    <h3>About me</h3>
-	<p>Hello! i'am your joy gurung, a web designer passionate about building beautiful and functional websites. I enjoy learning new technologies and creating projects that make a difference</p>
-</section>
+		<nav>
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
 
-<section id ="projects">
-	<h3>My projects</h3>
-	<img src = "public/img.png"/>
-	<h4>Project 1</h4>
-	<p>The weather app is showing the conditions of Bidur </p>
-</section>
+	<main>
+		<section id="about">
+			<h3>About me</h3>
+			<p>Hello! I'm Joy Gurung, a web designer passionate about building beautiful and functional websites. I enjoy learning new technologies and creating projects that make a difference.</p>
+		</section>
 
-<section id ='contact'>
-	<form>
-		<label>Name:</label>
-		<input type = "text" placeholder="enter your name">
-		<label>Email:</label>
-		<input type ="text" placeholder="enter your email">
-		<label>Description:</label>
-		<input type ="text" placeholder = "enter your description">
-		<button>submit</button>
-	</form>
+		<section id="projects">
+			<h3>My projects</h3>
+			<img src="public/img.png" alt="Project image"/>
+			<h4>Project 1</h4>
+			<p>The weather app shows the real-time weather conditions of Bidur.</p>
+		</section>
 
-</section>
+		<section id="contact">
+			<form>
+				<label>Name:</label>
+				<input type="text" placeholder="Enter your name">
 
-<footer>&copy; copyright belongs to joy gurung</footer>
+				<label>Email:</label>
+				<input type="email" placeholder="Enter your email">
 
+				<label>Description:</label>
+				<textarea placeholder="Enter your description"></textarea>
 
-</main>
+				<button>Submit</button>
+			</form>
+		</section>
+
+		<footer>&copy; Copyright belongs to Joy Gurung</footer>
+	</main>
 </body>
 </html>
